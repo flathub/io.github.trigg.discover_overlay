@@ -1,0 +1,14 @@
+{
+    "name": "local-appdata",
+    "buildsystem": "simple",
+    "sources": [
+        {
+            "type": "file",
+            "path": "io.github.trigg.discover_overlay.appdata.xml"
+        }
+    ],
+    "build-commands": [
+        "install -d /app/share/appdata",
+        "install -m644 io.github.trigg.discover_overlay.appdata.xml /app/share/appdata/io.github.trigg.discover_overlay.appdata.xml"
+    ]
+}
