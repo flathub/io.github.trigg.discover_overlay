@@ -11,7 +11,6 @@ finish-args:
   - --share=network
 rename-icon: discover-overlay
 rename-desktop-file: discover_overlay.desktop
-rename-appdata-file: discover_overlay.appdata.xml
 modules:
   - python3-discover-overlay.json
   - local-appdata.json
