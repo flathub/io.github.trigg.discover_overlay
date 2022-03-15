@@ -67,8 +67,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/51/53/39aeddfb3a17ff19c6f9096074ce8134cce9644c0b804a8ce907e2864d4c/discover_overlay-0.4.5-py3-none-any.whl",
-            "sha256": "4ab86daa6ed8c2a2404b86d36686f206da2b0df1e44e99d6acf51abd2d874da4"
+            "url": "https://files.pythonhosted.org/packages/77/9c/d2342f63e5a293fcfb49fbee8f33ff6978b16168433ca41ab602ceeec186/discover_overlay-0.4.6-py3-none-any.whl",
+            "sha256": "https://files.pythonhosted.org/packages/77/9c/d2342f63e5a293fcfb49fbee8f33ff6978b16168433ca41ab602ceeec186/discover_overlay-0.4.6-py3-none-any.whl"
         }
 
     ]
