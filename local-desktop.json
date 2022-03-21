@@ -1,0 +1,14 @@
+{
+    "name": "local-desktop",
+    "buildsystem": "simple",
+    "sources": [
+        {
+            "type": "file",
+            "path": "discover_overlay.desktop"
+        }
+    ],
+    "build-commands": [
+        "install -d /app/share/applications",
+        "install -m644 discover_overlay.desktop /app/share/applications/discover_overlay.desktop"
+    ]
+}
