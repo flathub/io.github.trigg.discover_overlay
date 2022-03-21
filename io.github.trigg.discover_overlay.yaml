@@ -14,3 +14,4 @@ rename-desktop-file: discover_overlay.desktop
 modules:
   - python3-discover-overlay.json
   - local-appdata.json
+  - local-desktop.json
