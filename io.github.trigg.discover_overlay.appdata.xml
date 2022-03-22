@@ -21,11 +21,18 @@
   <screenshots>
     <screenshot type="default">
       <caption>Overlay shown over Steam big picture login</caption>
-      <image type="source" width="1290" height="834">https://user-images.githubusercontent.com/535772/149630830-750f8af6-e935-44a6-ad1c-da1d204ee107.png</image>
+      <image type="source" width="1280" height="800">https://trigg.github.io/Discover/overlay_on_deck.jpg</image>
     </screenshot>
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.5.0" date="2022-03-22" urgency="low">
+      <description>
+        - Officially supporting running on Steam Deck
+        - Autodetect flatpak environment to avoid locking issues
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.5.0</url>
+    </release>
     <release version="0.4.7" date="2022-03-15" urgency="low">
       <description>
         - I strongly dislike appdata
