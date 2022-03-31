@@ -67,9 +67,13 @@
         },
         {
             "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b1/5c/ccfc167485806c1936f7d3ba97db6c448d0089c5746ba105b6eb22dba60e/dbus-python-1.2.18.tar.gz",
+            "sha256": "92bdd1e68b45596c833307a5ff4b217ee6929a1502f5341bae28fd120acf7260"
+        },
+        {
+            "type": "file",
             "url": "https://files.pythonhosted.org/packages/79/fd/2183bec8066417b1516fa592ca69a107a9b753c939826e6bd7a89ee2d381/discover_overlay-0.5.0-py3-none-any.whl",
             "sha256": "c812be6455195a22b37b29adc076345fcbbd559f574497308fde77a034e5a767"
         }
-
     ]
 }
