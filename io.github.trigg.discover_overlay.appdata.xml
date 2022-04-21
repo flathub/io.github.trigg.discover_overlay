@@ -26,6 +26,18 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.5.1" date="2022-04-21" urgency="low">
+      <description>
+        - Added system notification support
+        - Huge overhaul of connector which hopefully fixes temporary API bans
+        - Improved default settings 
+        - Gave each module a named logger rather than "Root"
+        - Fixed Autostart on boot
+        - Prevent multiple Flatpak instances 
+        - Fix HiDPI floating window placement
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.5.1</url>
+    </release>
     <release version="0.5.0" date="2022-03-22" urgency="low">
       <description>
         - Officially supporting running on Steam Deck
