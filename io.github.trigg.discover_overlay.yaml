@@ -9,7 +9,6 @@ finish-args:
   - --socket=wayland
   - --device=dri
   - --share=network
-  - --socket=session-bus
 rename-icon: discover-overlay
 rename-desktop-file: discover_overlay.desktop
 modules:
