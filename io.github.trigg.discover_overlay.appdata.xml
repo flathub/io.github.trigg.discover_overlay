@@ -26,6 +26,17 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.5.2" date="2022-05-27" urgency="low">
+      <description>
+        - Added translations & localisations
+        - Fixed default avatar being invisible
+        - Removed guild list from voice settings - no longer needed
+        - Fixed font size not saving between launches
+        - Removed dbus requirement & fixed multiple notification bugs
+        - Include installed version at start of logs & on about screen
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.5.2</url>
+    </release>
     <release version="0.5.1" date="2022-04-21" urgency="low">
       <description>
         - Added system notification support
