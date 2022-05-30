@@ -26,6 +26,14 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.5.3" date="2022-05-30" urgency="low">
+      <description>
+        - Include a `__main__` to allow VScode debugging
+        - Fix no language fallback causing the program to crash (Thanks luni3359!)
+        - Updated base translation and information
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.5.3</url>
+    </release>
     <release version="0.5.2" date="2022-05-27" urgency="low">
       <description>
         - Added translations and localisations
