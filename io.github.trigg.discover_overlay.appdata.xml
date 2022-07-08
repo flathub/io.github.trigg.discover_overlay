@@ -26,6 +26,18 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.5.4" date="2022-07-08" urgency="low">
+      <description>
+        - Hide and show support for gamescope
+        - Fixed a bug where Force XShape doesn't clear previous render artifacts in gamescope
+        - skip RPC if no connection is detected
+        - Reinforce inout shape after new monitor switch
+        - Made testing easier by allowing Discover-Overlay to show test content without a connection
+        - Added toggle option to add a hotkey to show/hide the overlay.
+        - Other bug fixes
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.5.4</url>
+    </release>
     <release version="0.5.3" date="2022-05-30" urgency="low">
       <description>
         - Include a `__main__` to allow VScode debugging
