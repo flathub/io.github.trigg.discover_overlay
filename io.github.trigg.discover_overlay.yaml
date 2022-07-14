@@ -10,7 +10,6 @@ finish-args:
   - --device=dri
   - --share=network
 rename-icon: discover-overlay
-rename-desktop-file: discover_overlay.desktop
 modules:
   - gtk-layer-shell.json
   - python3-discover-overlay.json

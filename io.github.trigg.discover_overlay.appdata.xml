@@ -17,6 +17,7 @@
     <id>com.discordapp.Discord</id>
   </requires>
   <launchable type="desktop-id">io.github.trigg.discover_overlay.desktop</launchable>
+  <launchable type="desktop-id">io.github.trigg.discover_overlay_configur.desktop</launchable>
   <project_license>GPL-3.0-or-later</project_license>
   <screenshots>
     <screenshot type="default">
@@ -114,3 +115,7 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
 </component>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
