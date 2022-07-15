@@ -8,12 +8,12 @@
         },
         {
             "type": "file",
-            "path": "io.github.trigg.discover_overlay_configure.desktop"
+            "path": "io.github.trigg.discover_overlay.configure.desktop"
         }
     ],
     "build-commands": [
         "install -d /app/share/applications",
         "install -m644 io.github.trigg.discover_overlay.desktop /app/share/applications/io.github.trigg.discover_overlay.desktop",
-        "install -m644 io.github.trigg.discover_overlay_configure.desktop /app/share/applications/io.github.trigg.discover_overlay.configure.desktop"
+        "install -m644 io.github.trigg.discover_overlay.configure.desktop /app/share/applications/io.github.trigg.discover_overlay.configure.desktop"
     ]
 }
