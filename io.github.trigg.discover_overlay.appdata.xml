@@ -26,6 +26,40 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.6.0" date="2022-07-22" urgency="low">
+      <description>
+        This new update for Discover Overlay has some potentially breaking new changes. If you are auto-starting this app then be aware the System tray and Configuration will not autostart alongside the overlay itself. If you wish for this then either tick `Run Configuration on startup` in Core or in your desktop environment add a new autostart option with the command as `discover-overlay --configure`
+
+        ### All overlays
+        - Detect compositor start and stop and act accordingly
+
+        ### Voice overlay
+        - Added voice connection status
+        - Added channel title and guild icon
+        - Customisable mute and deafen background colour
+        - Always draw blank spot when avatar icon is missing
+        - Customisable border width
+        - Customisable semitransparent avatar icons
+        - Optional 'fancy' borders for semi-transparent avatar icons
+        - Fixed left offset being incorrect
+        - Customisable text length limit
+
+        ### Configuration
+        - Major rewrite of configuration system
+        - Moved some voice options into 'advanced options' button
+        - channels.rpc lists known guilds and channels
+        - Removed UI building from python and remade in Glade
+        - 'Autostart' option for Configuration
+        - Option to 'start minimized to tray'
+        - Fixed notification 'test content' 
+        - Updated translation helper and base translation
+
+        ### Contributors
+
+        Thank you to @matmicha  for patches in this release
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.6</url>
+    </release>
     <release version="0.5.4" date="2022-07-08" urgency="low">
       <description>
         - Hide and show support for gamescope
