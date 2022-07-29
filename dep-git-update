@@ -1,0 +1,32 @@
+#!/usr/bin/python
+
+# Update python3-discover-overlay.json with latest versions of dependencies. Using latest source from git
+
+# This assumes you've cloned https://github.com/flatpak/flatpak-builder-tools alongside this repo
+
+import os
+import json
+
+os.system("../flatpak-builder-tools/pip/flatpak-pip-generator discover-overlay")
+
+# After getting the full list remove PyGObject and discover-overlay
+obj = {}
+with open("python3-discover-overlay.json") as f:
+    obj = json.load(f)
+
+for source in list(obj['sources']):
+    if 'PyGObject' in source['url'] or 'discover_overlay' in source['url']:
+        obj['sources'].remove(source)
+
+obj['sources'].append({
+    "type": "git", "url": "https://github.com/trigg/Discover.git"
+})
+
+# Change build steps to build git version of discover overlay and add git commit version to local version
+obj['build-commands'] = [
+    "sed -i \"s/version='\\(.*\\)'/version='\\1+local.`git rev-parse HEAD`'/\" setup.py",
+    "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} . --no-build-isolation"
+]
+
+with open("python3-discover-overlay.json", "w") as f:
+    json.dump(obj, f, indent=4)
