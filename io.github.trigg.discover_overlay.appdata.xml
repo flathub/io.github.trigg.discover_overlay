@@ -26,6 +26,14 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.6.2" date="2022-07-16" urgency="low">
+      <description>
+        A minor bugfix update
+        - Remove psutil dependency
+        - Fix setuptools deprecation
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.6.2</url>
+    </release>
     <release version="0.6.0" date="2022-07-22" urgency="low">
       <description>
         This new update for Discover Overlay has some potentially breaking new changes. If you are auto-starting this app then be aware the System tray and Configuration will not autostart alongside the overlay itself. If you wish for this then either tick `Run Configuration on startup` in Core or in your desktop environment add a new autostart option with the command as `discover-overlay --configure`

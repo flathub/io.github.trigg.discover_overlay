@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+# Update python3-discover-overlay.json with latest versions of dependencies. Using stable from pip
+
+# This assumes you've cloned https://github.com/flatpak/flatpak-builder-tools alongside this repo
+
+import os
+import json
+
+os.system("../flatpak-builder-tools/pip/flatpak-pip-generator discover-overlay")
+
+# After getting the full list remove PyGObject as it's provided by flatpak
+obj = {}
+with open("python3-discover-overlay.json") as f:
+    obj = json.load(f)
+
+for source in obj['sources']:
+    if 'PyGObject' in source['url']:
+        obj['sources'].remove(source)
+
+with open("python3-discover-overlay.json", "w") as f:
+    json.dump(obj, f, indent=4)
