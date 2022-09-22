@@ -26,6 +26,15 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.6.3" date="2022-09-22" urgency="low">
+      <description>
+        Some bugfixes:
+        - Sort users by locale
+        - Group radio buttons on voice placement
+        - Fix 'start minimised' checkbutton being in wrong state
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.6.3</url>
+    </release>
     <release version="0.6.2" date="2022-07-16" urgency="low">
       <description>
         A minor bugfix update

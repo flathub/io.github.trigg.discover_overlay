@@ -7,8 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d1/cb/4783c8f1a90f89e260dbf72ebbcf25931f3a28f8f80e2e90f8a589941b19/urllib3-1.26.11-py2.py3-none-any.whl",
-            "sha256": "c33ccba33c819596124764c23a97d25f32b28433ba0dedeb77d873a38722c9bc"
+            "url": "https://files.pythonhosted.org/packages/6f/de/5be2e3eed8426f871b170663333a0f627fc2924cc386cd41be065e7ea870/urllib3-1.26.12-py2.py3-none-any.whl",
+            "sha256": "b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"
         },
         {
             "type": "file",
@@ -17,23 +17,23 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl",
-            "sha256": "84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"
+            "url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+            "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/94/69/64b11e8c2fb21f08634468caef885112e682b0ebe2908e74d3616eb1c113/charset_normalizer-2.1.0-py3-none-any.whl",
-            "sha256": "5189b6f22b01957427f35b6a08d9a0bc45b46d3788ef5a92e978433c7a35f8a5"
+            "url": "https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl",
+            "sha256": "83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e9/06/d3d367b7af6305b16f0d28ae2aaeb86154fa91f144f036c2d5002a5a202b/certifi-2022.6.15-py3-none-any.whl",
-            "sha256": "fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"
+            "url": "https://files.pythonhosted.org/packages/6a/34/cd29f4dd8a23ce45f2b8ce9631ff2d4205fb74eddb412a3dc4fd1e4aa800/certifi-2022.9.14-py3-none-any.whl",
+            "sha256": "e232343de1ab72c2aa521b625c80f699e356830fd0e2c620b465b304b17b0516"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/67/b4/91683d7d5f66393e8877492fe4763304f82dbe308658a8db98f7a9e20baf/websocket_client-1.3.3-py3-none-any.whl",
-            "sha256": "5d55652dc1d0b3c734f044337d929aaf83f4f9138816ec680c1aefefb4dc4877"
+            "url": "https://files.pythonhosted.org/packages/83/b8/95c2512818d6ddb9b97f4163e915b2afe2db42b620270aa59c5ee0b47245/websocket_client-1.4.1-py3-none-any.whl",
+            "sha256": "398909eb7e261f44b8f4bd474785b6ec5f5b499d4953342fe9755e01ef624090"
         },
         {
             "type": "file",
@@ -57,8 +57,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6f/4c/96899b91580db4b2ea3b84faff7b75011722e6f55a095d347ec23eecc442/discover_overlay-0.6.2-py3-none-any.whl",
-            "sha256": "72075c5ecde44f4670fc0fdae400aed4ffc96d1f748755b96831df5233853ac9"
+            "url": "https://files.pythonhosted.org/packages/25/7a/912f8f25d82798f6a1b98a5e7cb1ff6c8a6959bb58598712ea55b310187b/discover_overlay-0.6.3-py3-none-any.whl",
+            "sha256": "fa4572580c3f35adba0e25ac0e3eee9cdea3e9b1da313ed4bba57107c57f286f"
         }
     ]
 }
