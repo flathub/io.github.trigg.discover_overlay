@@ -7,13 +7,23 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6f/de/5be2e3eed8426f871b170663333a0f627fc2924cc386cd41be065e7ea870/urllib3-1.26.12-py2.py3-none-any.whl",
-            "sha256": "b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"
+            "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+            "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/92/a4/506564f574fa74c90b98690e8ecc8dbae1629f31fcfe0be69de45d9e1605/pycairo-1.21.0.tar.gz",
-            "sha256": "251907f18a552df938aa3386657ff4b5a4937dde70e11aa042bc297957f4b74b"
+            "url": "https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl",
+            "sha256": "4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/ff/d7/8d757f8bd45be079d76309248845a04f09619a7b17d6dfc8c9ff6433cac2/charset-normalizer-3.1.0.tar.gz",
+            "sha256": "34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/25/7a/912f8f25d82798f6a1b98a5e7cb1ff6c8a6959bb58598712ea55b310187b/discover_overlay-0.6.3-py3-none-any.whl",
+            "sha256": "fa4572580c3f35adba0e25ac0e3eee9cdea3e9b1da313ed4bba57107c57f286f"
         },
         {
             "type": "file",
@@ -22,23 +32,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl",
-            "sha256": "83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f"
+            "url": "https://files.pythonhosted.org/packages/69/ca/9e9fa2e8be0876a9bbf046a1be7ee33e61d4fdfbd1fd25c76c1bdfddf8c4/pycairo-1.23.0.tar.gz",
+            "sha256": "9b61ac818723adc04367301317eb2e814a83522f07bbd1f409af0dada463c44c"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6a/34/cd29f4dd8a23ce45f2b8ce9631ff2d4205fb74eddb412a3dc4fd1e4aa800/certifi-2022.9.14-py3-none-any.whl",
-            "sha256": "e232343de1ab72c2aa521b625c80f699e356830fd0e2c620b465b304b17b0516"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/83/b8/95c2512818d6ddb9b97f4163e915b2afe2db42b620270aa59c5ee0b47245/websocket_client-1.4.1-py3-none-any.whl",
-            "sha256": "398909eb7e261f44b8f4bd474785b6ec5f5b499d4953342fe9755e01ef624090"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ca/91/6d9b8ccacd0412c08820f72cebaa4f0c0441b5cda699c90f618b6f8a1b42/requests-2.28.1-py3-none-any.whl",
-            "sha256": "8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"
+            "url": "https://files.pythonhosted.org/packages/fc/b8/ff33610932e0ee81ae7f1269c890f697d56ff74b9f5b2ee5d9b7fa2c5355/python_xlib-0.33-py2.py3-none-any.whl",
+            "sha256": "c3534038d42e0df2f1392a1b30a15a4ff5fdc2b86cfa94f072bf11b10a164398"
         },
         {
             "type": "file",
@@ -47,18 +47,18 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c2/16/950463d36e8b64067c4d535038c5512de8200015e793d7d0a3f400187cbf/python_xlib-0.31-py2.py3-none-any.whl",
-            "sha256": "1ec6ce0de73d9e6592ead666779a5732b384e5b8fb1f1886bd0a81cafa477759"
+            "url": "https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl",
+            "sha256": "64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8c/92/2975b464d9926dc667020ed1abfa6276e68c3571dcb77e43347e15ee9eed/Pillow-9.2.0.tar.gz",
-            "sha256": "75e636fd3e0fb872693f23ccb8a5ff2cd578801251f3a4f6854c6a5d437d3c04"
+            "url": "https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl",
+            "sha256": "aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/25/7a/912f8f25d82798f6a1b98a5e7cb1ff6c8a6959bb58598712ea55b310187b/discover_overlay-0.6.3-py3-none-any.whl",
-            "sha256": "fa4572580c3f35adba0e25ac0e3eee9cdea3e9b1da313ed4bba57107c57f286f"
+            "url": "https://files.pythonhosted.org/packages/6d/9a/6c793729c9d48fcca155ce55e4dfafacffb7fb52a62e3ae2198846c31af6/websocket_client-1.5.1-py3-none-any.whl",
+            "sha256": "cdf5877568b7e83aa7cf2244ab56a3213de587bbe0ce9d8b9600fc77b455d89e"
         }
     ]
 }
