@@ -26,6 +26,30 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.6.7" date="2023-09-24" urgency="low">
+      <description>
+       - Made overlays give up Gamescope XAtom when no content is present
+       - Added Reset buttons to each config page
+       - Fix issue where multiple monitors with the same name exist
+       - Catch invalid guild id crashes
+       - Hide voice overlay on unexpected disconnect
+       - Fixed some broken translations
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.6.7</url>
+    </release>
+    <release version="0.6.4" date="2023-05-29" urgency="low">
+      <description>
+        - Added German translation (thanks @Baumfinder )
+        - Added Turkish translation (thanks @dybdeskarphet )
+        - Added a grace period to 'Only show speaking' users, so they remain visible for a short time after (thanks @Hubro )
+        - Fixed a crash in window placement when using an empty config file
+        - Added option to hide user avatar icons
+        - Rearranged advanced voice settings
+        - Fixed a crash when switching Discord accounts (thank @slikie )
+        - Fixed text 'popup' mode to only show new messages
+      </description>
+      <url>https://github.com/trigg/Discover/releases/tag/v0.6.4</url>
+    </release>
     <release version="0.6.3" date="2022-09-22" urgency="low">
       <description>
         Some bugfixes:
