@@ -8,7 +8,8 @@
   <description>
     <p>A graphical overlay for Discord voice chat.</p>
   </description>
-  <icon type="remote" width="256" height="256">https://raw.githubusercontent.com/trigg/Discover/c716ea36ee28d70fbc0fb430d82c07d42a3edfda/discover-overlay.png</icon>
+  <icon type="remote" width="256" height="256">
+    https://raw.githubusercontent.com/trigg/Discover/c716ea36ee28d70fbc0fb430d82c07d42a3edfda/discover-overlay.png</icon>
   <categories>
     <category>Utility</category>
     <category>TelephonyTools</category>
@@ -21,165 +22,182 @@
   <screenshots>
     <screenshot type="default">
       <caption>Overlay shown over Steam big picture login</caption>
-      <image type="source" width="1280" height="800">https://trigg.github.io/Discover/overlay_on_deck.jpg</image>
+      <image type="source" width="145" height="178">
+        https://user-images.githubusercontent.com/535772/271294004-32c40af6-0700-4899-aaa2-46268e65213d.png</image>
     </screenshot>
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
     <release version="0.6.7" date="2023-09-24" urgency="low">
       <description>
-       - Made overlays give up Gamescope XAtom when no content is present
-       - Added Reset buttons to each config page
-       - Fix issue where multiple monitors with the same name exist
-       - Catch invalid guild id crashes
-       - Hide voice overlay on unexpected disconnect
-       - Fixed some broken translations
+        <ul>
+          <li>Made overlays give up Gamescope XAtom when no content is present</li>
+          <li>Added Reset buttons to each config page</li>
+          <li>Fix issue where multiple monitors with the same name exist</li>
+          <li>Catch invalid guild id crashes</li>
+          <li>Hide voice overlay on unexpected disconnect</li>
+          <li>Fixed some broken translations</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.6.7</url>
     </release>
     <release version="0.6.4" date="2023-05-29" urgency="low">
       <description>
-        - Added German translation (thanks @Baumfinder )
-        - Added Turkish translation (thanks @dybdeskarphet )
-        - Added a grace period to 'Only show speaking' users, so they remain visible for a short time after (thanks @Hubro )
-        - Fixed a crash in window placement when using an empty config file
-        - Added option to hide user avatar icons
-        - Rearranged advanced voice settings
-        - Fixed a crash when switching Discord accounts (thank @slikie )
-        - Fixed text 'popup' mode to only show new messages
+        <ul>
+          <li>Added German translation (thanks @Baumfinder )</li>
+          <li>Added Turkish translation (thanks @dybdeskarphet )</li>
+          <li>Added a grace period to 'Only show speaking' users, so they remain visible for a short
+            time after (thanks @Hubro )</li>
+          <li>Fixed a crash in window placement when using an empty config file</li>
+          <li>Added option to hide user avatar icons</li>
+          <li>Rearranged advanced voice settings</li>
+          <li>Fixed a crash when switching Discord accounts (thank @slikie )</li>
+          <li>Fixed text 'popup' mode to only show new messages</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.6.4</url>
     </release>
     <release version="0.6.3" date="2022-09-22" urgency="low">
-      <description>
-        Some bugfixes:
-        - Sort users by locale
-        - Group radio buttons on voice placement
-        - Fix 'start minimised' checkbutton being in wrong state
+      <description> Some bugfixes: <ul>
+          <li>Sort users by locale</li>
+          <li>Group radio buttons on voice placement</li>
+          <li>Fix 'start minimised' checkbutton being in wrong state</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.6.3</url>
     </release>
     <release version="0.6.2" date="2022-07-16" urgency="low">
-      <description>
-        A minor bugfix update
-        - Remove psutil dependency
-        - Fix setuptools deprecation
+      <description> A minor bugfix update <ul>
+          <li>Remove psutil dependency</li>
+          <li>Fix setuptools deprecation</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.6.2</url>
     </release>
     <release version="0.6.0" date="2022-07-22" urgency="low">
-      <description>
-        This new update for Discover Overlay has some potentially breaking new changes. If you are auto-starting this app then be aware the System tray and Configuration will not autostart alongside the overlay itself. If you wish for this then either tick `Run Configuration on startup` in Core or in your desktop environment add a new autostart option with the command as `discover-overlay --configure`
+      <description> This new update for Discover Overlay has some potentially breaking new changes.
+        If you are auto-starting this app then be aware the System tray and Configuration will not
+        autostart alongside the overlay itself. If you wish for this then either tick `Run
+        Configuration on startup` in Core or in your desktop environment add a new autostart option
+        with the command as `discover-overlay --configure` <b>All overlays</b>
+        <ul>
+          <li>Detect compositor start and stop and act accordingly</li>
+        </ul>
 
-        ### All overlays
-        - Detect compositor start and stop and act accordingly
+        <b>Voice overlay</b>
+        <ul>
+          <li>Added voice connection status</li>
+          <li>Added channel title and guild icon</li>
+          <li>Customisable mute and deafen background colour</li>
+          <li>Always draw blank spot when avatar icon is missing</li>
+          <li>Customisable border width</li>
+          <li>Customisable semitransparent avatar icons</li>
+          <li>Optional 'fancy' borders for semi-transparent avatar icons</li>
+          <li>Fixed left offset being incorrect</li>
+          <li>Customisable text length limit</li>
+        </ul>
 
-        ### Voice overlay
-        - Added voice connection status
-        - Added channel title and guild icon
-        - Customisable mute and deafen background colour
-        - Always draw blank spot when avatar icon is missing
-        - Customisable border width
-        - Customisable semitransparent avatar icons
-        - Optional 'fancy' borders for semi-transparent avatar icons
-        - Fixed left offset being incorrect
-        - Customisable text length limit
+        <b>Configuration</b>
+        <ul>
+          <li>Major rewrite of configuration system</li>
+          <li>Moved some voice options into 'advanced options' button</li>
+          <li>channels.rpc lists known guilds and channels</li>
+          <li>Removed UI building from python and remade in Glade</li>
+          <li>'Autostart' option for Configuration</li>
+          <li>Option to 'start minimized to tray'</li>
+          <li>Fixed notification 'test content' </li>
+          <li>Updated translation helper and base translation</li>
+        </ul>
 
-        ### Configuration
-        - Major rewrite of configuration system
-        - Moved some voice options into 'advanced options' button
-        - channels.rpc lists known guilds and channels
-        - Removed UI building from python and remade in Glade
-        - 'Autostart' option for Configuration
-        - Option to 'start minimized to tray'
-        - Fixed notification 'test content' 
-        - Updated translation helper and base translation
-
-        ### Contributors
-
-        Thank you to @matmicha  for patches in this release
-      </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.6</url>
+        <b>Contributors</b>
+        Thank you to @matmicha for patches in this release </description>
     </release>
     <release version="0.5.4" date="2022-07-08" urgency="low">
       <description>
-        - Hide and show support for gamescope
-        - Fixed a bug where Force XShape doesn't clear previous render artifacts in gamescope
-        - skip RPC if no connection is detected
-        - Reinforce inout shape after new monitor switch
-        - Made testing easier by allowing Discover-Overlay to show test content without a connection
-        - Added toggle option to add a hotkey to show/hide the overlay.
-        - Other bug fixes
+        <ul>
+          <li>Hide and show support for gamescope</li>
+          <li>Fixed a bug where Force XShape doesn't clear previous render artifacts in gamescope</li>
+          <li>skip RPC if no connection is detected</li>
+          <li>Reinforce input shape after new monitor switch</li>
+          <li>Made testing easier by allowing Discover-Overlay to show test content without a
+            connection</li>
+          <li>Added toggle option to add a hotkey to show/hide the overlay.</li>
+          <li>Other bug fixes</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.5.4</url>
     </release>
     <release version="0.5.3" date="2022-05-30" urgency="low">
       <description>
-        - Include a `__main__` to allow VScode debugging
-        - Fix no language fallback causing the program to crash (Thanks luni3359!)
-        - Updated base translation and information
+        <ul>
+          <li>Include a `__main__` to allow VScode debugging</li>
+          <li>Fix no language fallback causing the program to crash (Thanks luni3359!)</li>
+          <li>Updated base translation and information</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.5.3</url>
     </release>
     <release version="0.5.2" date="2022-05-27" urgency="low">
       <description>
-        - Added translations and localisations
-        - Fixed default avatar being invisible
-        - Removed guild list from voice settings - no longer needed
-        - Fixed font size not saving between launches
-        - Removed dbus requirement and fixed multiple notification bugs
-        - Include installed version at start of logs and on about screen
+        <ul>
+          <li>Added translations and localisations</li>
+          <li>Fixed default avatar being invisible</li>
+          <li>Removed guild list from voice settings - no longer needed</li>
+          <li>Fixed font size not saving between launches</li>
+          <li>Removed dbus requirement and fixed multiple notification bugs</li>
+          <li>Include installed version at start of logs and on about screen</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.5.2</url>
     </release>
     <release version="0.5.1" date="2022-04-21" urgency="low">
       <description>
-        - Added system notification support
-        - Huge overhaul of connector which hopefully fixes temporary API bans
-        - Improved default settings 
-        - Gave each module a named logger rather than "Root"
-        - Fixed Autostart on boot
-        - Prevent multiple Flatpak instances 
-        - Fix HiDPI floating window placement
+        <ul>
+          <li>Added system notification support</li>
+          <li>Huge overhaul of connector which hopefully fixes temporary API bans</li>
+          <li>Improved default settings</li>
+          <li>Gave each module a named logger rather than "Root"</li>
+          <li>Fixed Autostart on boot</li>
+          <li>Prevent multiple Flatpak instances</li>
+          <li>Fix HiDPI floating window placement</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.5.1</url>
     </release>
     <release version="0.5.0" date="2022-03-22" urgency="low">
       <description>
-        - Officially supporting running on Steam Deck
-        - Autodetect flatpak environment to avoid locking issues
+        <ul>
+          <li>Officially supporting running on Steam Deck</li>
+          <li>Autodetect flatpak environment to avoid locking issues</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.5.0</url>
     </release>
     <release version="0.4.7" date="2022-03-15" urgency="low">
       <description>
-        - I strongly dislike appdata
+        <ul>
+          <li>I strongly dislike appdata</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.4.7</url>
     </release>
     <release version="0.4.6" date="2022-03-15" urgency="low">
       <description>
-        - Merged text and voice overlay's when only one window can be shown.
-        - Added "show on taskbar" option to core, which should allow screen capture of overlay in X11.
-        - Update guild list more frequently
-        - Reimplemented floating windows for gamescope
-        - Added desktop-application metadata for flatpak
-        - Various bug fixes 
+        <ul>
+          <li>Merged text and voice overlay's when only one window can be shown.</li>
+          <li>Added "show on taskbar" option to core, which should allow screen capture of overlay
+            in X11.</li>
+          <li>Update guild list more frequently</li>
+          <li>Reimplemented floating windows for gamescope</li>
+          <li>Added desktop-application metadata for flatpak</li>
+          <li>Various bug fixes</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.4.6</url>
     </release>
     <release version="0.4.5" date="2022-03-11" urgency="low">
       <description>
-        - Fixed some app metadata
-        - Added rating based on unmoderated nature of app
+        <ul>
+          <li>Fixed some app metadata</li>
+          <li>Added rating based on unmoderated nature of app</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.4.5</url>
     </release>
     <release version="0.4.4" date="2022-03-11" urgency="low">
       <description>
-        - Fixed some app metadata
+        <ul>
+          <li>Fixed some app metadata</li>
+        </ul>
       </description>
-      <url>https://github.com/trigg/Discover/releases/tag/v0.4.4</url>
     </release>
   </releases>
   <content_rating type="oars-1.0">
