@@ -21,7 +21,7 @@
   <project_license>GPL-3.0-or-later</project_license>
   <screenshots>
     <screenshot type="default">
-      <caption>Overlay shown over Steam big picture login</caption>
+      <caption>Overlay shown over desktop</caption>
       <image type="source" width="145" height="178">
         https://user-images.githubusercontent.com/535772/271294004-32c40af6-0700-4899-aaa2-46268e65213d.png</image>
     </screenshot>
