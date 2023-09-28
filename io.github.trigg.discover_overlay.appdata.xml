@@ -22,8 +22,8 @@
   <screenshots>
     <screenshot type="default">
       <caption>Overlay shown over desktop</caption>
-      <image type="source" width="145" height="178">
-        https://user-images.githubusercontent.com/535772/271294004-32c40af6-0700-4899-aaa2-46268e65213d.png</image>
+      <image type="source" width="1193" height="1154">
+        https://user-images.githubusercontent.com/535772/271313111-8f661195-2517-4a27-b420-8370fff57793.png</image>
     </screenshot>
   </screenshots>
   <developer_name>trigg</developer_name>
@@ -56,7 +56,7 @@
       </description>
     </release>
     <release version="0.6.3" date="2022-09-22" urgency="low">
-      <description> Some bugfixes: <ul>
+      <description> <p>Some bugfixes:</p> <ul>
           <li>Sort users by locale</li>
           <li>Group radio buttons on voice placement</li>
           <li>Fix 'start minimised' checkbutton being in wrong state</li>
@@ -64,23 +64,23 @@
       </description>
     </release>
     <release version="0.6.2" date="2022-07-16" urgency="low">
-      <description> A minor bugfix update <ul>
+      <description> <p>A minor bugfix update</p> <ul>
           <li>Remove psutil dependency</li>
           <li>Fix setuptools deprecation</li>
         </ul>
       </description>
     </release>
     <release version="0.6.0" date="2022-07-22" urgency="low">
-      <description> This new update for Discover Overlay has some potentially breaking new changes.
+      <description> <p>This new update for Discover Overlay has some potentially breaking new changes.
         If you are auto-starting this app then be aware the System tray and Configuration will not
         autostart alongside the overlay itself. If you wish for this then either tick `Run
         Configuration on startup` in Core or in your desktop environment add a new autostart option
-        with the command as `discover-overlay --configure` <b>All overlays</b>
+        with the command as `discover-overlay --configure`</p> <p>All overlays</p>
         <ul>
           <li>Detect compositor start and stop and act accordingly</li>
         </ul>
 
-        <b>Voice overlay</b>
+        <p>Voice overlay</p>
         <ul>
           <li>Added voice connection status</li>
           <li>Added channel title and guild icon</li>
@@ -93,7 +93,7 @@
           <li>Customisable text length limit</li>
         </ul>
 
-        <b>Configuration</b>
+        <p>Configuration</p>
         <ul>
           <li>Major rewrite of configuration system</li>
           <li>Moved some voice options into 'advanced options' button</li>
@@ -105,8 +105,8 @@
           <li>Updated translation helper and base translation</li>
         </ul>
 
-        <b>Contributors</b>
-        Thank you to @matmicha for patches in this release </description>
+        <p>Contributors</p>
+        <p>Thank you to @matmicha for patches in this release</p> </description>
     </release>
     <release version="0.5.4" date="2022-07-08" urgency="low">
       <description>
