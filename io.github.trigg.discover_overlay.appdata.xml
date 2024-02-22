@@ -28,6 +28,17 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.0" date="2024-02-22" urgency="low">
+      <description>
+        <ul>
+          <li>Refactored core logic about redrawing to allow better cpu idling and reduce battery usage</li>
+          <li>Refactored connection to local client and reconnect logic</li>
+          <li>Cache user access token for quicker start up</li>
+          <li>Fixed incorrect font usage for voice channel title</li>
+          <li>Catch resolution changes, scale changes and monitor layout changes</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.6.7" date="2023-09-24" urgency="low">
       <description>
         <ul>
