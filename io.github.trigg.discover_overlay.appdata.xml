@@ -28,6 +28,13 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.1" date="2024-03-19" urgency="low">
+      <description>
+        <ul>
+          <li>Fixed cpu throttling after client disconnected</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.0" date="2024-02-22" urgency="low">
       <description>
         <ul>
