@@ -17,8 +17,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c4/ba/5064475ebd17919ddc7c904835424135b566381f5cd302a7f2dab0c8e180/discover_overlay-0.7.0-py3-none-any.whl",
-            "sha256": "c7750d9634ea89df0b39de88536b78b981e0926199ac97627e3e9e7aacf4ab2e"
+            "url": "https://files.pythonhosted.org/packages/69/02/cf3eb5b1649e31820f8453cdf8bc1d986dd1de4b6cc8041499ea83639cc7/discover_overlay-0.7.1-py3-none-any.whl",
+            "sha256": "8e96e902b020a6577adf0e8d331610bc19b1b85da01de54298e63b0610d6a518"
         },
         {
             "type": "file",
@@ -34,6 +34,11 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/1c/41/91955188e97c7b85fbaac6bbf4e33de028899e0aa31bdce99b1afe2eeb17/pycairo-1.26.0.tar.gz",
             "sha256": "2dddd0a874fbddb21e14acd9b955881ee1dc6e63b9c549a192d613a907f9cbeb"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/a9/73/ff037ab99c40522ed53c759baa0e3969d03933d3650f02e50ee0cb639666/pygobject-3.48.1.tar.gz",
+            "sha256": "2c4cd7c805ee9e727904172423a7519338017fd7e122b62218ac211627436875"
         },
         {
             "type": "file",
