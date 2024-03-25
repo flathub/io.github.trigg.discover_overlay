@@ -15,3 +15,4 @@ modules:
   - python3-discover-overlay.json
   - local-appdata.json
   - local-desktop.json
+  - local-icons.json
