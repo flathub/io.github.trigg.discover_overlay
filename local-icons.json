@@ -19,6 +19,6 @@
         "install -d /app/share/icons",
         "install -m644 discover-overlay.svg /app/share/icons/discover-overlay.svg",
         "install -m644 discover-overlay-tray.svg /app/share/icons/discover-overlay-tray.svg",
-        "install -m644 discover-overlay-default.png /app/share/icons/discover-overlay-default.png",
+        "install -m644 discover-overlay-default.png /app/share/icons/discover-overlay-default.png"
     ]
 }
