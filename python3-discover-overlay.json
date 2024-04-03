@@ -17,8 +17,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8e/f9/d60ccd00e8c3bf740c3eda993457b694dbcfd98ff6c56bcd3e8229ea6ea3/discover_overlay-0.7.2-py3-none-any.whl",
-            "sha256": "62ba28a86b5a6d9944ab6b8b1d136fa2df44316898a43a1cd7bd6bf87e1538eb"
+            "url": "https://files.pythonhosted.org/packages/26/4d/1d083945cd35e77a7d8eb3e0758a693c75628262aec55f2f92730dc6337d/discover_overlay-0.7.3-py3-none-any.whl",
+            "sha256": "3f8a549205ae0d4add650f7075467fbfdf503eefc0210cec48369155dcb0c903"
         },
         {
             "type": "file",
@@ -29,6 +29,16 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz",
             "sha256": "9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/8a/83/80082a175e6d56baecba9ada20bad1b621f0bd16c61df99bfe989114afb1/pulsectl-23.5.2-py2.py3-none-any.whl",
+            "sha256": "b77295cfbce5cb5b7b80ab5903aa0239b38bcbb84ac18ae1f42d43ed3dac9d86"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/7f/aa/911dceb718e2c4f7ea8fbf0e392ef96a7ab73ab9dffa040f3ec402f632ed/pulsectl_asyncio-1.1.1-py3-none-any.whl",
+            "sha256": "a1434bce9a2068a8e4e9a903dcd8f0a52f091cbf583449b6e51576a5acd77a0c"
         },
         {
             "type": "file",
