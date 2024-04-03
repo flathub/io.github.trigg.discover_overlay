@@ -28,6 +28,16 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.2" date="2024-04-03" urgency="low">
+      <description>
+        <ul>
+          <li>Added option to fade out voice chat while inactive</li>
+          <li>Fixed reload of all user avatars when changing transparency</li>
+          <li>Fixed crash where there is no X11 window under Gtk Window</li>
+          <li>Improved French translations thanks to @Bqleine</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.1" date="2024-03-19" urgency="low">
       <description>
         <ul>

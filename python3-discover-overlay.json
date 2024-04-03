@@ -17,8 +17,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/69/02/cf3eb5b1649e31820f8453cdf8bc1d986dd1de4b6cc8041499ea83639cc7/discover_overlay-0.7.1-py3-none-any.whl",
-            "sha256": "8e96e902b020a6577adf0e8d331610bc19b1b85da01de54298e63b0610d6a518"
+            "url": "https://files.pythonhosted.org/packages/8e/f9/d60ccd00e8c3bf740c3eda993457b694dbcfd98ff6c56bcd3e8229ea6ea3/discover_overlay-0.7.2-py3-none-any.whl",
+            "sha256": "62ba28a86b5a6d9944ab6b8b1d136fa2df44316898a43a1cd7bd6bf87e1538eb"
         },
         {
             "type": "file",
@@ -27,8 +27,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f8/3e/32cbd0129a28686621434cbf17bb64bf1458bfb838f1f668262fefce145c/pillow-10.2.0.tar.gz",
-            "sha256": "e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e"
+            "url": "https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz",
+            "sha256": "9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d"
         },
         {
             "type": "file",
