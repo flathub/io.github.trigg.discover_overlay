@@ -28,6 +28,18 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.4" date="2024-04-25" urgency="low">
+      <description>
+        <ul>
+          <li>Gamescope mode fix for external monitors</li>
+          <li>Gamescope mode fix for multiple overlays</li>
+          <li>Allow 'any' monitor</li>
+          <li>Fix crash when no monitors are found</li>
+          <li>Fix audio assist going out of sync</li>
+          <li>Repair a crash in Cinnamon desktops</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.3" date="2024-04-03" urgency="low">
       <description>
         <ul>
