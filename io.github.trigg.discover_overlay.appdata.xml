@@ -28,6 +28,15 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.6" date="2024-08-14" urgency="low">
+      <description>
+        <ul>
+          <li>Switch to storing monitor by plug name</li>
+          <li>Fix accidental unmute in audioassist</li>
+          <li>Fix last spoken logic</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.5" date="2024-07-08" urgency="low">
       <description>
         <ul>
