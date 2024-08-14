@@ -4,8 +4,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://github.com/wmww/gtk-layer-shell/archive/v0.7.0.tar.gz",
-            "sha256": "ac6016f232c5b0551e5106a7652751cfc56b5a1895a723ff931fbc7019acfc47",
+            "url": "https://github.com/wmww/gtk-layer-shell/archive/v0.8.2.tar.gz",
+            "sha256": "254dd246303127c5d5236ea640f01a82e35d2d652a48d139dd669c832a0f0dce",
             "x-checker-data": {
                 "type": "anitya",
                 "project-id": 198568,
