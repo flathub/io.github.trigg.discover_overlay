@@ -28,6 +28,11 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.7" date="2024-08-16" urgency="low">
+      <description>
+        Fix a format error in python 3.11
+      </description>
+    </release>
     <release version="0.7.6" date="2024-08-14" urgency="low">
       <description>
         <ul>
