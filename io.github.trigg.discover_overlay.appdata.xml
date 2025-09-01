@@ -38,6 +38,7 @@
         - Fix for RTL text
         - Fallback to XWayland for unsupported Wayland environs (Gnome, Weston)
       </description>
+    </release>
     <release version="0.7.7" date="2024-08-16" urgency="low">
       <description>
         Fix a format error in python 3.11
