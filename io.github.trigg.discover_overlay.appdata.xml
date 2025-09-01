@@ -28,245 +28,51 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.9" date="2025-09-01" urgency="low">
+    </release>
     <release version="0.7.7" date="2024-08-16" urgency="low">
-      <description>
-        Fix a format error in python 3.11
-      </description>
     </release>
     <release version="0.7.6" date="2024-08-14" urgency="low">
-      <description>
-        <ul>
-          <li>Switch to storing monitor by plug name</li>
-          <li>Fix accidental unmute in audioassist</li>
-          <li>Fix last spoken logic</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.5" date="2024-07-08" urgency="low">
-      <description>
-        <ul>
-          <li>Further fixes for Cinnamon</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.4" date="2024-04-25" urgency="low">
-      <description>
-        <ul>
-          <li>Gamescope mode fix for external monitors</li>
-          <li>Gamescope mode fix for multiple overlays</li>
-          <li>Allow 'any' monitor</li>
-          <li>Fix crash when no monitors are found</li>
-          <li>Fix audio assist going out of sync</li>
-          <li>Repair a crash in Cinnamon desktops</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.3" date="2024-04-03" urgency="low">
-      <description>
-        <ul>
-          <li>Added Pipewire/Pulseaudio integration</li>
-          <li>Added Controls to configuration window</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.2" date="2024-04-03" urgency="low">
-      <description>
-        <ul>
-          <li>Added option to fade out voice chat while inactive</li>
-          <li>Fixed reload of all user avatars when changing transparency</li>
-          <li>Fixed crash where there is no X11 window under Gtk Window</li>
-          <li>Improved French translations thanks to @Bqleine</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.1" date="2024-03-19" urgency="low">
-      <description>
-        <ul>
-          <li>Fixed cpu throttling after client disconnected</li>
-        </ul>
-      </description>
     </release>
     <release version="0.7.0" date="2024-02-22" urgency="low">
-      <description>
-        <ul>
-          <li>Refactored core logic about redrawing to allow better cpu idling and reduce battery usage</li>
-          <li>Refactored connection to local client and reconnect logic</li>
-          <li>Cache user access token for quicker start up</li>
-          <li>Fixed incorrect font usage for voice channel title</li>
-          <li>Catch resolution changes, scale changes and monitor layout changes</li>
-        </ul>
-      </description>
     </release>
     <release version="0.6.7" date="2023-09-24" urgency="low">
-      <description>
-        <ul>
-          <li>Made overlays give up Gamescope XAtom when no content is present</li>
-          <li>Added Reset buttons to each config page</li>
-          <li>Fix issue where multiple monitors with the same name exist</li>
-          <li>Catch invalid guild id crashes</li>
-          <li>Hide voice overlay on unexpected disconnect</li>
-          <li>Fixed some broken translations</li>
-        </ul>
-      </description>
     </release>
     <release version="0.6.4" date="2023-05-29" urgency="low">
-      <description>
-        <ul>
-          <li>Added German translation (thanks @Baumfinder )</li>
-          <li>Added Turkish translation (thanks @dybdeskarphet )</li>
-          <li>Added a grace period to 'Only show speaking' users, so they remain visible for a short
-            time after (thanks @Hubro )</li>
-          <li>Fixed a crash in window placement when using an empty config file</li>
-          <li>Added option to hide user avatar icons</li>
-          <li>Rearranged advanced voice settings</li>
-          <li>Fixed a crash when switching Discord accounts (thank @slikie )</li>
-          <li>Fixed text 'popup' mode to only show new messages</li>
-        </ul>
-      </description>
     </release>
     <release version="0.6.3" date="2022-09-22" urgency="low">
-      <description> <p>Some bugfixes:</p> <ul>
-          <li>Sort users by locale</li>
-          <li>Group radio buttons on voice placement</li>
-          <li>Fix 'start minimised' checkbutton being in wrong state</li>
-        </ul>
-      </description>
     </release>
     <release version="0.6.2" date="2022-07-16" urgency="low">
-      <description> <p>A minor bugfix update</p> <ul>
-          <li>Remove psutil dependency</li>
-          <li>Fix setuptools deprecation</li>
-        </ul>
-      </description>
     </release>
     <release version="0.6.0" date="2022-07-22" urgency="low">
-      <description> <p>This new update for Discover Overlay has some potentially breaking new changes.
-        If you are auto-starting this app then be aware the System tray and Configuration will not
-        autostart alongside the overlay itself. If you wish for this then either tick `Run
-        Configuration on startup` in Core or in your desktop environment add a new autostart option
-        with the command as `discover-overlay --configure`</p> <p>All overlays</p>
-        <ul>
-          <li>Detect compositor start and stop and act accordingly</li>
-        </ul>
-
-        <p>Voice overlay</p>
-        <ul>
-          <li>Added voice connection status</li>
-          <li>Added channel title and guild icon</li>
-          <li>Customisable mute and deafen background colour</li>
-          <li>Always draw blank spot when avatar icon is missing</li>
-          <li>Customisable border width</li>
-          <li>Customisable semitransparent avatar icons</li>
-          <li>Optional 'fancy' borders for semi-transparent avatar icons</li>
-          <li>Fixed left offset being incorrect</li>
-          <li>Customisable text length limit</li>
-        </ul>
-
-        <p>Configuration</p>
-        <ul>
-          <li>Major rewrite of configuration system</li>
-          <li>Moved some voice options into 'advanced options' button</li>
-          <li>channels.rpc lists known guilds and channels</li>
-          <li>Removed UI building from python and remade in Glade</li>
-          <li>'Autostart' option for Configuration</li>
-          <li>Option to 'start minimized to tray'</li>
-          <li>Fixed notification 'test content' </li>
-          <li>Updated translation helper and base translation</li>
-        </ul>
-
-        <p>Contributors</p>
-        <p>Thank you to @matmicha for patches in this release</p> </description>
     </release>
     <release version="0.5.4" date="2022-07-08" urgency="low">
-      <description>
-        <ul>
-          <li>Hide and show support for gamescope</li>
-          <li>Fixed a bug where Force XShape doesn't clear previous render artifacts in gamescope</li>
-          <li>skip RPC if no connection is detected</li>
-          <li>Reinforce input shape after new monitor switch</li>
-          <li>Made testing easier by allowing Discover-Overlay to show test content without a
-            connection</li>
-          <li>Added toggle option to add a hotkey to show/hide the overlay.</li>
-          <li>Other bug fixes</li>
-        </ul>
-      </description>
     </release>
     <release version="0.5.3" date="2022-05-30" urgency="low">
-      <description>
-        <ul>
-          <li>Include a `__main__` to allow VScode debugging</li>
-          <li>Fix no language fallback causing the program to crash (Thanks luni3359!)</li>
-          <li>Updated base translation and information</li>
-        </ul>
-      </description>
     </release>
     <release version="0.5.2" date="2022-05-27" urgency="low">
-      <description>
-        <ul>
-          <li>Added translations and localisations</li>
-          <li>Fixed default avatar being invisible</li>
-          <li>Removed guild list from voice settings - no longer needed</li>
-          <li>Fixed font size not saving between launches</li>
-          <li>Removed dbus requirement and fixed multiple notification bugs</li>
-          <li>Include installed version at start of logs and on about screen</li>
-        </ul>
-      </description>
     </release>
     <release version="0.5.1" date="2022-04-21" urgency="low">
-      <description>
-        <ul>
-          <li>Added system notification support</li>
-          <li>Huge overhaul of connector which hopefully fixes temporary API bans</li>
-          <li>Improved default settings</li>
-          <li>Gave each module a named logger rather than "Root"</li>
-          <li>Fixed Autostart on boot</li>
-          <li>Prevent multiple Flatpak instances</li>
-          <li>Fix HiDPI floating window placement</li>
-        </ul>
-      </description>
     </release>
     <release version="0.5.0" date="2022-03-22" urgency="low">
-      <description>
-        <ul>
-          <li>Officially supporting running on Steam Deck</li>
-          <li>Autodetect flatpak environment to avoid locking issues</li>
-        </ul>
-      </description>
     </release>
     <release version="0.4.7" date="2022-03-15" urgency="low">
-      <description>
-        <ul>
-          <li>I strongly dislike appdata</li>
-        </ul>
-      </description>
     </release>
     <release version="0.4.6" date="2022-03-15" urgency="low">
-      <description>
-        <ul>
-          <li>Merged text and voice overlay's when only one window can be shown.</li>
-          <li>Added "show on taskbar" option to core, which should allow screen capture of overlay
-            in X11.</li>
-          <li>Update guild list more frequently</li>
-          <li>Reimplemented floating windows for gamescope</li>
-          <li>Added desktop-application metadata for flatpak</li>
-          <li>Various bug fixes</li>
-        </ul>
-      </description>
     </release>
     <release version="0.4.5" date="2022-03-11" urgency="low">
-      <description>
-        <ul>
-          <li>Fixed some app metadata</li>
-          <li>Added rating based on unmoderated nature of app</li>
-        </ul>
-      </description>
     </release>
     <release version="0.4.4" date="2022-03-11" urgency="low">
-      <description>
-        <ul>
-          <li>Fixed some app metadata</li>
-        </ul>
-      </description>
     </release>
   </releases>
   <content_rating type="oars-1.0">
