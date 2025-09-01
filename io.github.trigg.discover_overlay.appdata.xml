@@ -28,6 +28,16 @@
   </screenshots>
   <developer_name>trigg</developer_name>
   <releases>
+    <release version="0.7.9" date="2025-09-01" urgency="low">
+      <description>
+        - Fix some edgecases for X11 users without compositors
+        - Fix broken bottom alignment
+        - Added --toggle-mute and --toggle-deaf RPC commands
+        - Updated French
+        - Fix autostart on systems without an autostart config
+        - Fix for RTL text
+        - Fallback to XWayland for unsupported Wayland environs (Gnome, Weston)
+      </description>
     <release version="0.7.7" date="2024-08-16" urgency="low">
       <description>
         Fix a format error in python 3.11
