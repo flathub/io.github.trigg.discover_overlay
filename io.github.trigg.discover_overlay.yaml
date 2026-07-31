@@ -13,6 +13,7 @@ rename-icon: discover-overlay
 modules:
   - gtk-layer-shell.json
   - python3-pybind11.json
+  - python3-xlib.json
   - python3-discover-overlay.json
   - local-appdata.json
   - local-desktop.json
