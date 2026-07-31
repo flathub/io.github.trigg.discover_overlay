@@ -10,7 +10,6 @@ os.system(
 
 os.system(
     "../flatpak-builder-tools/pip/flatpak-pip-generator "
-    "--ignore-pkg pygobject "
     "-o python3-discover-overlay "
     "discover-overlay"
 )
@@ -18,6 +17,11 @@ os.system(
 obj = {}
 with open("python3-discover-overlay.json") as f:
     obj = json.load(f)
+
+if "build-commands" in obj and len(obj["build-commands"]) > 0:
+    original_cmd = obj["build-commands"][0]
+    if "--no-deps" not in original_cmd:
+        obj["build-commands"][0] = original_cmd + " --no-deps"
 
 for source in obj["sources"]:
     if "PyGObject" in source["url"]:
