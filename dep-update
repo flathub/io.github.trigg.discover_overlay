@@ -4,26 +4,18 @@ import json
 
 os.system(
     "../flatpak-builder-tools/pip/flatpak-pip-generator "
+    "--ignore-pkg pygobject "
     "-o python3-discover-overlay "
-    "pybind11 discover-overlay"
+    "discover-overlay"
 )
 
+obj = {}
 with open("python3-discover-overlay.json") as f:
     obj = json.load(f)
 
-if "modules" in obj:
-    for module in obj["modules"]:
-        if "sources" in module:
-            module["sources"] = [
-                src
-                for src in module["sources"]
-                if "PyGObject" not in src.get("url", "")
-            ]
-else:
-    if "sources" in obj:
-        obj["sources"] = [
-            src for src in obj["sources"] if "PyGObject" not in src.get("url", "")
-        ]
+for source in obj["sources"]:
+    if "PyGObject" in source["url"]:
+        obj["sources"].remove(source)
 
 with open("python3-discover-overlay.json", "w") as f:
     json.dump(obj, f, indent=4)
