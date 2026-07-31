@@ -1,6 +1,6 @@
 app-id: io.github.trigg.discover_overlay
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: "50"
 sdk: org.gnome.Sdk
 command: discover-overlay
 finish-args:
@@ -12,6 +12,7 @@ finish-args:
 rename-icon: discover-overlay
 modules:
   - gtk-layer-shell.json
+  - python3-pybind11.json
   - python3-discover-overlay.json
   - local-appdata.json
   - local-desktop.json
