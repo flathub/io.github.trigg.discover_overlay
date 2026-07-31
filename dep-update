@@ -4,25 +4,6 @@ import json
 
 os.system(
     "../flatpak-builder-tools/pip/flatpak-pip-generator "
-    "-o python3-xlib "
-    "python-xlib"
-)
-obj = {}
-with open("python3-xlib.json") as f:
-    obj = json.load(f)
-
-
-if "build-commands" in obj and len(obj["build-commands"]) > 0:
-    original_cmd = obj["build-commands"][0]
-    if "--no-deps" not in original_cmd:
-        obj["build-commands"][0] = original_cmd + " --no-deps"
-
-with open("python3-xlib.json", "w") as f:
-    json.dump(obj, f, indent=4)
-
-
-os.system(
-    "../flatpak-builder-tools/pip/flatpak-pip-generator "
     "-o python3-pybind11 "
     "pybind11"
 )
@@ -40,14 +21,9 @@ with open("python3-discover-overlay.json") as f:
 for source in obj["sources"]:
     if "PyGObject" in source["url"]:
         obj["sources"].remove(source)
-        continue
     if "pygobject" in source["url"]:
         obj["sources"].remove(source)
-        continue
-    if "python_xlib" in source["url"]:
-        obj["sources"].remove(source)
-        continue
-    print("Keeping %s" % source["url"])
+
 
 with open("python3-discover-overlay.json", "w") as f:
     json.dump(obj, f, indent=4)
