@@ -7,7 +7,7 @@
 import os
 import json
 
-os.system("../flatpak-builder-tools/pip/flatpak-pip-generator discover-overlay")
+os.system("../flatpak-builder-tools/pip/flatpak-pip-generator discover-overlay pybind11")
 
 # After getting the full list remove PyGObject as it's provided by flatpak
 obj = {}
