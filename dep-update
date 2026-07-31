@@ -4,6 +4,12 @@ import json
 
 os.system(
     "../flatpak-builder-tools/pip/flatpak-pip-generator "
+    "-o python3-pybind11 "
+    "pybind11"
+)
+
+os.system(
+    "../flatpak-builder-tools/pip/flatpak-pip-generator "
     "--ignore-pkg pygobject "
     "-o python3-discover-overlay "
     "discover-overlay"
@@ -15,6 +21,8 @@ with open("python3-discover-overlay.json") as f:
 
 for source in obj["sources"]:
     if "PyGObject" in source["url"]:
+        obj["sources"].remove(source)
+    if "pygobject" in source["url"]:
         obj["sources"].remove(source)
 
 with open("python3-discover-overlay.json", "w") as f:
